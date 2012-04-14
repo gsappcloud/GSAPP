@@ -118,9 +118,8 @@
     font-size:11px;
 }
 .entry {
-    line-height:18px;
-    font-size:12px;
-    border-bottom: 1px solid #efefef;
+    line-height:20px;
+    font-size:14px;
     text-transform:none;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -2062,7 +2061,6 @@ body.simplemenu-enabled .wrapper {
 }
 /* SCHOOL SECTION */
 .page-school-programs a.titleLink2 {
-    font-family:Georgia,"Times New Roman",Times,serif;
     font-size:24px;
 }
 /* people section */
