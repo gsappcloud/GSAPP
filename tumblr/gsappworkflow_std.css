@@ -1,0 +1,352 @@
+img { border:0px; }
+body { 
+		background: {color:Background}; 
+		color: {color:Text}; 
+		font-family: 'helvetica', Arial, sans-serif;
+		font-size: 11px; 
+		margin:0px; 
+		padding:0px;
+        line-height: 20px;
+}
+
+a:link, a:active, a:visited { 
+		text-decoration: none;
+		color: {color:Text};
+		
+}
+a:hover { 
+		text-decoration: none;
+		color: {color:Accent};
+}
+
+/* ---------------------------------------------------- Containers ------------------ */
+
+#container-left {
+	width:150px;
+	margin:100px 20px 0 50px;
+	padding:0;
+	float:left;
+}
+
+#container{
+	float:left;
+	width:100%;
+	margin:100px 50px 0 0;
+	padding:0;
+}
+
+
+/* ---------------------------------------------------- Funky Shit ------------------ */
+::selection,
+a::selection,
+img::selection {
+ background: #00deff;
+ color: #ffffff;
+}
+
+::-moz-selection {
+ background: #00deff;
+ color: #ffffff; 
+}
+
+/* ---------------------------------------------------- Navigation ------------------ */
+ul.nav {
+ list-style: none;
+ margin: 0;
+ padding: 0px;
+ position: fixed;
+ top: 50px;
+ left: 50px;
+ width: 130px;
+ line-height: 16px;
+}
+
+ul.nav h4 {
+    margin:0 0 5px 0;
+	padding:0;
+	font-weight:bold;
+}
+ul.nav li {
+ padding: 0px;
+}
+ul.nav li:first-child {
+ font-weight: bold;
+ text-transform: uppercase;
+ margin-bottom: 3px;
+}
+ul.nav img {
+ max-width: 100px;
+ height: auto;
+}
+
+#wf {
+	letter-spacing:1px;
+	font-size:13px;
+	margin:10px 0;
+}
+
+#search {
+                padding: 0px;
+                margin: 10px 0px 0px 0px;
+                text-align: left;
+            }
+            
+                #search .text_input {
+                    border: solid 1px #aaa;
+                    width: 100px;
+                    background-color: transparent;
+                    border-radius: 0px;
+                    -moz-border-radius: 0px;
+                    -webkit-border-radius: 0px;
+                    padding: 3px;
+                     font-family: 'helvetica', Arial, sans-serif;
+					font-size: 10px; 
+                    color: #555;
+                    
+                }
+                
+                #search .submit_button{
+                	margin-top: 4px;
+                	border: none;
+                	width: 43px;
+                	height: 16px;
+                	border-radius: 0px;
+                	-moz-border-radius: 0px;
+                    -webkit-border-radius: 0px;
+                    font-family: 'helvetica', Arial, sans-serif;
+					font-size: 10px; 
+                	background-color:#ccc;
+
+                }
+                
+#dropdown{
+				
+                    font-family: 'helvetica', Arial, sans-serif;
+					font-size: 11px; 
+					padding: 2px 0px 1px 0px;
+					text-align: left;
+					width: 100px;
+					color: {color:Text};
+
+}
+
+
+
+{block:ifLargePictures}
+/* ---------------------------------------------------- Photo ------------------ */
+@media all and (max-width: 849px) { 	 img { max-width: 500px; } 	}
+@media all and (min-width: 850px) { 	 img { max-width: 550px; } 	}
+@media all and (min-width: 900px) { 	 img { max-width: 600px; } 	}
+@media all and (min-width: 950px) { 	 img { max-width: 650px; } 	}
+@media all and (min-width: 1000px) { 	 img { max-width: 700px; } 	}
+@media all and (min-width: 1050px) { 	 img { max-width: 750px; } 	}
+@media all and (min-width: 1100px) { 	 img { max-width: 800px; } 	}
+@media all and (min-width: 1150px) { 	 img { max-width: 850px; } 	}
+@media all and (min-width: 1200px) { 	 img { max-width: 900px; } 	}
+@media all and (min-width: 1250px) { 	 img { max-width: 950px; } 	}
+@media all and (min-width: 1300px) { 	 img { max-width: 1000px; } 	}
+@media all and (min-width: 1350px) { 	 img { max-width: 1050px; } 	}
+@media all and (min-width: 1400px) { 	 img { max-width: 1100px; } 	}
+@media all and (min-width: 1450px) { 	 img { max-width: 1150px; } 	}
+@media all and (min-width: 1500px) { 	 img { max-width: 1200px; } 	}
+@media all and (min-width: 1550px) { 	 img { max-width: 1250px; } 	}
+@media all and (min-width: 1600px) { 	 img { max-width: 1300px; } 	}
+@media all and (min-width: 1650px) { 	 img { max-width: 1350px; } 	}
+@media all and (min-width: 1700px) { 	 img { max-width: 1400px; } 	}
+@media all and (min-width: 1750px) { 	 img { max-width: 1450px; } 	}
+@media all and (min-width: 1800px) { 	 img { max-width: 1500px; } 	}
+@media all and (min-width: 1850px) { 	 img { max-width: 1550px; } 	}
+img { height: auto; }
+
+/* ---------------------------------------------------- Video ------------------ */
+@media all and (max-width: 849px) {
+ 	 .video iframe, .video object, .video embed { width: 500px; height: 281px; } 	}
+@media all and (min-width: 850px) {
+	 .video iframe, .video object, .video embed { width: 550px; height: 309px; } 	}
+@media all and (min-width: 900px) {
+ 	 .video iframe, .video object, .video embed { width: 600px; height: 337px; } 	}
+@media all and (min-width: 950px) {
+ 	 .video iframe, .video object, .video embed { width: 650px; height: 365px; } 	}
+@media all and (min-width: 1000px) {
+ 	 .video iframe, .video object, .video embed { width: 700px; height: 393px; } 	}
+@media all and (min-width: 1050px) {
+ 	 .video iframe, .video object, .video embed { width: 750px; height: 422px; } 	}
+@media all and (min-width: 1100px) {
+ 	 .video iframe, .video object, .video embed { width: 800px; height: 450px; } 	}
+@media all and (min-width: 1150px) {
+ 	 .video iframe, .video object, .video embed { width: 850px; height: 478px; } 	}
+@media all and (min-width: 1200px) {
+ 	 .video iframe, .video object, .video embed { width: 900px; height: 506px; } 	}
+@media all and (min-width: 1250px) {
+ 	 .video iframe, .video object, .video embed { width: 950px; height: 534px; } 	}
+@media all and (min-width: 1300px) {
+ 	 .video iframe, .video object, .video embed { width: 1000px; height: 562px; } 	}
+@media all and (min-width: 1350px) {
+ 	 .video iframe, .video object, .video embed { width: 1050px; height: 590px; } 	}
+@media all and (min-width: 1400px) {
+ 	 .video iframe, .video object, .video embed { width: 1100px; height: 618px; } 	}
+@media all and (min-width: 1450px) {
+ 	 .video iframe, .video object, .video embed { width: 1150px; height: 646px; } 	}
+@media all and (min-width: 1500px) {
+ 	 .video iframe, .video object, .video embed { width: 1200px; height: 674px; } 	}
+@media all and (min-width: 1550px) {
+ 	 .video iframe, .video object, .video embed { width: 1250px; height: 703px; } 	}
+@media all and (min-width: 1600px) {
+ 	 .video iframe, .video object, .video embed { width: 1300px; height: 731px; } 	}
+@media all and (min-width: 1650px) {
+ 	 .video iframe, .video object, .video embed { width: 1350px; height: 759px; } 	}
+@media all and (min-width: 1700px) {
+ 	 .video iframe, .video object, .video embed { width: 1400px; height: 787px; } 	}
+@media all and (min-width: 1750px) {
+ 	 .video iframe, .video object, .video embed { width: 1450px; height: 815px; } 	}
+@media all and (min-width: 1800px) {
+ 	 .video iframe, .video object, .video embed { width: 1500px; height: 843px; } 	}
+@media all and (min-width: 1850px) {
+ 	 .video iframe, .video object, .video embed { width: 1550px; height: 871px; } 	}
+{/block:ifLargePictures}
+
+
+/* ---------------------------------------------------- PhotoSet ------------------ */
+ul.photoset {
+ list-style: none;
+ margin: 0;
+ padding: 0px;
+}
+ul.photoset li {
+ padding-bottom: 10px;
+}
+ul.photoset li:last-child {
+ padding-bottom: 0px !important;
+}
+
+/* ---------------------------------------------------- Audio ------------------ */
+img.albumart {
+ width: 207px;
+ height: 207px;
+}
+
+/* ---------------------------------------------------- Quote ------------------ */
+div.quote {
+ font-size: 18px;
+ font-family:georgia;
+ font-weight:bold;
+ line-height: 21px;
+}
+div.source {
+ text-align: right;
+}
+
+
+/* ---------------------------------------------------- LinkPost ------------------ */
+div.posts div.post a.linkpost {
+ font-size: 18px;
+ font-family:georgia;
+ font-weight:bold;
+ line-height: 21px;
+ text-decoration:none;
+ border:none;
+}
+
+
+/* ---------------------------------------------------- Chat ------------------ */
+div.chat ul { list-style:none; margin:0px; padding:0px; }
+div.chat li { padding: 3px 0; }
+div.chat span.label {  }
+div.chat div.line {  }
+
+
+/* ---------------------------------------------------- Text ------------------ */
+.title {
+ text-transform: uppercase;
+ font-weight: bold;
+}
+
+/* ---------------------------------------------------- Posts ------------------ */
+div.posts {
+ margin-left: 250px;
+ margin-top: 50px;
+ width: 100%;
+}
+
+div.post{
+	float:left;
+	margin:10px;
+	background-color:red;
+	width:220px;
+}
+div.posts div.post {
+ margin-bottom: 100px;
+}
+div.posts div.post a {
+ border-bottom: 1px solid {color:Accent};
+}
+div.posts div.post div.postfoot {
+ color: {color:Accent};
+}
+div.posts div.post div.postfoot a {
+ color: {color:Accent};
+ border-bottom: 0px solid {color:Accent};
+}
+div.posts div.post div.postfoot a:hover {
+ color: {color:Text};
+}
+
+
+/* ---------------------------------------------------- Notes ------------------ */
+div.notes { margin-top: 75px; }
+ol.notes { padding: 0px; margin: 0px 5px; list-style-type: none; }
+ol.notes li.note { border-top: solid 0px #ccc; padding: 0 0 3px 0; }
+ol.notes li.note img.avatar {vertical-align: -4px; margin-right: 0px; width: 16px; height: 16px; }
+ol.notes li.note span.action { font-weight: normal; }
+ol.notes li.note span.action a { font-weight: normal; }
+ol.notes li.note .answer_content { font-weight: normal; }
+ol.notes li.note blockquote { border-color: none; padding: 1px 3px; margin: 0px 0px 0px 0px; }
+ol.notes li.note blockquote a { text-decoration: none; }
+ 
+
+/* ---------------------------------------------------- Pagination ------------------ */
+div.pagination {
+ margin-bottom: 100px;
+}
+.current_page {
+ font-weight: bold;
+ background: {color:Accent};
+ padding: 2px 6px 0px 6px;
+ -webkit-border-radius: 18px;
+ -moz-border-radius: 18px;
+ border-radius: 18px;
+}
+
+/* ---------------------------------------------------- Stuff ------------------ */
+
+
+blockquote { margin-left:3px !important; }
+
+::-webkit-scrollbar-thumb:vertical {background-color: #32e2c5; height:200px;}
+::-webkit-scrollbar-thumb:horizontal {background-color: #32e2c5; height:10px !important;}
+::-webkit-scrollbar { height:10px; width:7px; background-color:{color:Background}; }
+
+div.tumblrAutoPager_page_info {
+ display:none;
+}
+hr {
+ display:none;
+}
+
+#tumblr_controls {
+   position: fixed !important;
+}
+
+img.raute {
+ position: fixed;
+ top: -13px;
+ left: -43px;
+}
+
+#back-top {
+   position: fixed;
+   right: 20px;
+   bottom: 15px;
+}
+
+

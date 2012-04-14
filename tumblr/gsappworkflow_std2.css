@@ -1,0 +1,67 @@
+img { border:0px; }
+body { 
+		background: {color:Background}; 
+		color: {color:Text}; 
+		font-family: 'helvetica', Arial, sans-serif;
+		font-size: 11px; 
+		margin:0px; 
+		padding:0px;
+        line-height: 20px;
+}
+
+a:link, a:active, a:visited { 
+		text-decoration: none;
+		color: {color:Text};
+		
+}
+a:hover { 
+		text-decoration: none;
+		color: {color:Accent};
+}
+
+#container-left ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#logo {
+	width:100px;
+	height:100px;
+}
+
+/* ---------------------------------------------------- Containers ------------------ */
+
+#container-left {
+	width:150px;
+	margin:100px 20px 0 50px;
+	padding:0;
+	float:left;
+	background-color:green;
+}
+
+#container{
+	display:inline;
+	margin:100px 50px 0 0;
+	padding:0;
+	background-color:yellow;
+	width:1100px; /*hack*/
+}
+
+
+/* ---------------------------------------------------- Posts ------------------ */
+
+#container .posts {
+ 	width:1100px; /* hack */
+}
+
+#container .post img {
+	width:200px;
+}
+
+#container .post{
+	float:left;
+	margin:0 10px 10px 0;
+	background:red;
+	width:220px;
+}
