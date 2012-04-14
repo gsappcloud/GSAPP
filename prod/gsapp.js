@@ -4,56 +4,6 @@ $(document) .ready(function () {
       $(".not-front #one_col_lt div.block-menu_block:first").addClass("first");
     }
     
-    /*google search
-    $.getScript("http://www.google.com/jsapi");
-   google.load('search', '1', {language : 'en'});
-  google.setOnLoadCallback(function() {
-    var customSearchOptions = {};
-    var customSearchControl = new google.search.CustomSearchControl(
-      '004033327063740628517:awygqf_dy3q', customSearchOptions);
-    customSearchControl.setResultSetSize(google.search.Search.SMALL_RESULTSET);
-    customSearchControl.draw('cse');
-  }, true);
-  */
-
-    /*events */
-    if ($(".date-display-start").length) {
-      $(".date-display-start") .before("<br class='line-break'/>");
-    }
-    
-    /*search */
-    if ($("#search-form").length) {
-      $("#search-form fieldset") .removeClass('collapsed');
-      $("#search-form .form-item label:contains('Enter your keywords')") .text('Keywords');
-      $("#search-form .search-advanced .form-item label:contains('Keywords')") .text('Keywords:');
-      $("#search-form .search-advanced #edit-category") .parent() .hide();
-    }
-    
-    if ($("#edit-or-wrapper").length) {
-      $("#edit-or-wrapper") .parent() .before($("#edit-keys-wrapper") .parent() .parent());
-    }
-    
-    if ($("#search-taxonomy-filter").length) {
-      toggleCheckboxes();
-      $("#search-taxonomy-filter .form-checkboxes input") .click(function () {
-          toggleCheckboxes();
-      });
-      $("#search-taxonomy-filter .form-item label:first") .text('Only in Program(s):');
-    }
-    
-    /* search results pager */
-    if ($(".section-search").length) {
-      $(".section-search .pager-next a:contains('next')") .text('Next Page >>');
-      $(".section-search .pager-previous a:contains('previous')") .text('<< Previous Page');
-      $(".section-search .tabs li a span:contains('Help')").parent().parent().hide();
-    }
-    
-    function toggleCheckboxes() {
-      if ($("#search-taxonomy-filter .form-checkboxes #edit-Filter--wrapper input") .attr('checked')) {
-        $("#search-taxonomy-filter .form-checkboxes input") .attr('checked', 0);
-        $("#search-taxonomy-filter .form-checkboxes #edit-Filter--wrapper input") .attr('checked', 1);
-      }
-    }
 
     /* sundial item edit form */    
     if ($(".node-type-aggregation-item #content").length) {
