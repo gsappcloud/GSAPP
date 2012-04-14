@@ -703,6 +703,7 @@ h4.title {
     margin: 0;
     padding:0 0 10px;
     text-transform:none;
+    text-decoration:none;
 }
 #header .block-menu_block li {
     width: 237px;
