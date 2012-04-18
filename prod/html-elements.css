@@ -6,14 +6,19 @@ body {
     background-color:#f8f9f9;
     text-align: center;
 }
-.wrapper a {
-    text-decoration:none;
+.menu .leaf a{
+	text-decoration:none;
     color:#000;
     text-transform: uppercase;
-/* display:block; */    font: 10px Arial, Helvetica, sans-serif;
+	font: 10px Arial, Helvetica, sans-serif;
+}
+
+.wrapper a {
+    text-decoration:underline;
+    color:#000;
 }
 .wrapper a:hover {
-    background-color: #efefef;
+    color: #777;
 }
 /* Removes dotted borders on clicked links from Firefox */
 a:active {
