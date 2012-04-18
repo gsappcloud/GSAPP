@@ -1,18 +1,20 @@
 $(document) .ready(function () {
 
-	$("#block-block-21").html("text");
 
+	var htmlForEvents = '<h2 class="title">This Week at GSAPP</h2><img style="text-align: center;" src="http://www.arch.columbia.edu/files/gsapp/imceshared/lld2117/uptodate.png" /><div><iframe src="http://events.gsapp.org/featured_event"></iframe></div>';
+	
+	$("#two_col_rt #one_col_lt").html(htmlForEvents);
 
     /* menu */
     if ($(".not-front #one_col_lt").size()) {
       $(".not-front #one_col_lt div.block-menu_block:first").addClass("first");
     }
 
-    /* delete me - video added to events list */
+    /* delete me - video added to events list
     var videosnippet = '<iframe width="217" height="180" src="http://www.youtube.com/embed/zGOcZO5uOS4" frameborder="0" allowfullscreen></iframe>';
-	videosnippet = '<div id="videosnippettext">The Torre Cube 1 by Carme Pinos</div><div id="videosnippet">' + videosnippet + '</div>';
+	videosnippet = '<div id="videosnippettext">The Torre Cube 1 by Carme Pinos</div><div id="videosnippet">' + videosnippet + '</div>'; */
 
-	$("#two_col_rt #one_col_lt").append(videosnippet);
+	
 	
 	
 
