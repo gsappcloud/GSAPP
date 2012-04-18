@@ -1,4 +1,8 @@
 $(document) .ready(function () {
+
+	$("#block-block-21").html("text");
+
+
     /* menu */
     if ($(".not-front #one_col_lt").size()) {
       $(".not-front #one_col_lt div.block-menu_block:first").addClass("first");
@@ -10,6 +14,8 @@ $(document) .ready(function () {
 
 	$("#two_col_rt #one_col_lt").append(videosnippet);
 	
+	
+
     
     /*google search*/
    
@@ -52,7 +58,6 @@ $(document) .ready(function () {
         $("#search-taxonomy-filter .form-checkboxes #edit-Filter--wrapper input") .attr('checked', 1);
       }
     }
->>>>>>> e85f77e87907964fd0d99105f19b3f9fb136b298
 
     /* sundial item edit form */    
     if ($(".node-type-aggregation-item #content").length) {
