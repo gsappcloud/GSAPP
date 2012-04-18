@@ -3,9 +3,7 @@ $(document) .ready(function () {
     if ($(".not-front #one_col_lt").size()) {
       $(".not-front #one_col_lt div.block-menu_block:first").addClass("first");
     }
-    
-<<<<<<< HEAD
-=======
+
     /* delete me - video added to events list */
     var videosnippet = '<iframe width="217" height="180" src="http://www.youtube.com/embed/zGOcZO5uOS4" frameborder="0" allowfullscreen></iframe>';
 	videosnippet = '<div id="videosnippettext">The Torre Cube 1 by Carme Pinos</div><div id="videosnippet">' + videosnippet + '</div>';
