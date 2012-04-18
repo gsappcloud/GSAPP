@@ -4,6 +4,57 @@ $(document) .ready(function () {
       $(".not-front #one_col_lt div.block-menu_block:first").addClass("first");
     }
     
+<<<<<<< HEAD
+=======
+    /* delete me - video added to events list */
+    var videosnippet = '<iframe width="217" height="180" src="http://www.youtube.com/embed/zGOcZO5uOS4" frameborder="0" allowfullscreen></iframe>';
+	videosnippet = '<div id="videosnippettext">The Torre Cube 1 by Carme Pinos</div><div id="videosnippet">' + videosnippet + '</div>';
+
+	$("#two_col_rt #one_col_lt").append(videosnippet);
+	
+    
+    /*google search*/
+   
+
+    /*events */
+    if ($(".date-display-start").length) {
+      $(".date-display-start") .before("<br class='line-break'/>");
+    }
+    
+    /*search */
+    if ($("#search-form").length) {
+      $("#search-form fieldset") .removeClass('collapsed');
+      $("#search-form .form-item label:contains('Enter your keywords')") .text('Keywords');
+      $("#search-form .search-advanced .form-item label:contains('Keywords')") .text('Keywords:');
+      $("#search-form .search-advanced #edit-category") .parent() .hide();
+    }
+    
+    if ($("#edit-or-wrapper").length) {
+      $("#edit-or-wrapper") .parent() .before($("#edit-keys-wrapper") .parent() .parent());
+    }
+    
+    if ($("#search-taxonomy-filter").length) {
+      toggleCheckboxes();
+      $("#search-taxonomy-filter .form-checkboxes input") .click(function () {
+          toggleCheckboxes();
+      });
+      $("#search-taxonomy-filter .form-item label:first") .text('Only in Program(s):');
+    }
+    
+    /* search results pager */
+    if ($(".section-search").length) {
+      $(".section-search .pager-next a:contains('next')") .text('Next Page >>');
+      $(".section-search .pager-previous a:contains('previous')") .text('<< Previous Page');
+      $(".section-search .tabs li a span:contains('Help')").parent().parent().hide();
+    }
+    
+    function toggleCheckboxes() {
+      if ($("#search-taxonomy-filter .form-checkboxes #edit-Filter--wrapper input") .attr('checked')) {
+        $("#search-taxonomy-filter .form-checkboxes input") .attr('checked', 0);
+        $("#search-taxonomy-filter .form-checkboxes #edit-Filter--wrapper input") .attr('checked', 1);
+      }
+    }
+>>>>>>> e85f77e87907964fd0d99105f19b3f9fb136b298
 
     /* sundial item edit form */    
     if ($(".node-type-aggregation-item #content").length) {
