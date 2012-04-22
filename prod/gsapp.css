@@ -272,9 +272,7 @@ a.titleLink2, .view-taxonomy-term .views-field-title a, .view-featured-event .vi
     font-variant:normal;
     line-height:normal;
 }
-.publication-title {
-	text-decoration:none;
-}
+
 
 a.titleLink2:hover, .views-field-title a:hover {
     text-decoration:underline;
@@ -283,7 +281,6 @@ a.home:hover {
     background-color: #fff;
 }
 #header a {
-    border-bottom: 1px solid #efefef;
     padding:6px 0px 6px 10px;
     display:block;
 }
@@ -2527,3 +2524,16 @@ td.gsc-branding-text, td.gsc-branding-img {
 #block-views-calendar-calendar_block, #block-block-23 {
 	display:none;
 }
+
+/* PUBLICATIONS */
+.publication-title {
+	text-decoration:none;
+}
+
+.publication-year{
+	font: bold 18px Verdana, Helvetica, Arial, sans-serif;
+	text-align: left;
+	margin-bottom:7px;
+}
+.publications-index .views-row, .publications-index .view-header {float:left; margin-right:10px; margin-bottom: 10px; height:100px; display:block; vertical-align:bottom; }
+.publications-index .view-header { font: bold 18px Verdana, Helvetica, Arial, sans-serif; margin-right:25px; text-align:right; }
