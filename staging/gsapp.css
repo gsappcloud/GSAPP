@@ -118,9 +118,8 @@
     font-size:11px;
 }
 .entry {
-    line-height:18px;
-    font-size:12px;
-    border-bottom: 1px solid #efefef;
+    line-height:20px;
+    font-size:14px;
     text-transform:none;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -248,7 +247,6 @@ a.titleLink,.view-featured-event .views-field-title a,
 }
 a.titleLink:hover, .view-featured-event .views-field-title a:hover {
     text-decoration:underline;
-    background-color:transparent; /* tct2003 111228 #fff; */
 }
 a.peopleLink {
     font: 18px Arial, Helvetica, sans-serif;
@@ -262,7 +260,7 @@ a.peopleLink:hover {
     text-decoration:underline;
 }
 a.titleLink2, .view-taxonomy-term .views-field-title a, .view-featured-event .views-field-title a, .view-today-events .views-field-title a, .view-calendar-events .views-field-title a,
-.view-events .views-field-title a, .view-upcoming-exhibitions .views-field-title a, .view-work-taxonomy-term .views-field-title a, .view-unpublished .views-field-title a, .view-semesters .views-field-title a {
+.view-events .views-field-title a, .view-upcoming-exhibitions .views-field-title a, .view-work-taxonomy-term .views-field-title a, .view-unpublished .views-field-title a, .view-semesters .views-field-title a, .publication-title {
     font: 18px Arial, Helvetica, sans-serif;
     font-weight:bold;
     text-transform: none;
@@ -274,6 +272,10 @@ a.titleLink2, .view-taxonomy-term .views-field-title a, .view-featured-event .vi
     font-variant:normal;
     line-height:normal;
 }
+.publication-title {
+	text-decoration:none;
+}
+
 a.titleLink2:hover, .views-field-title a:hover {
     text-decoration:underline;
 }
@@ -419,109 +421,10 @@ p.gobutton {
     margin: 0;
 }
 /* CALENDAR (TEMP) NOT MINE */
-#block-views-calendar-calendar_block table {
-    width:217px;
-    margin-left:10px;
-    color: #333333;
-    margin-left: 10px;
-    padding: 0px;
-    text-align:center;
-    font-size: 10px;
-}
-#block-views-calendar-calendar_block h3 {
-    font: 10px Arial, Helvetica, sans-serif;
-    font-weight:bold;
-    text-transform: uppercase;
-    color:#051215;
-    text-decoration:underline;
-    margin: 0px 0px 6px 0px;
-    width: auto;
-    padding:6px 0px 0px 6px;
-}
-#block-views-calendar-calendar_block h3 a {
-	font-weight:bold;
-}
-#block-views-calendar-calendar_block .date-prev,
-#block-views-calendar-calendar_block .date-next {
-    display:inline;
-    margin:6px 4px 0 4px;
-    width:2%;
-
-}
-#block-views-calendar-calendar_block .date-prev{
-text-align:right;
-float:left;
-width:40%;
+#block-views-calendar-calendar_block {
+    display:none;
 }
 
-#block-views-calendar-calendar_block .date-next{
-text-align:left;
-float:left;
-}
-
-#block-views-calendar-calendar_block .date-nav div.date-heading {
-    text-align:left;
-    float:left;
-}
-
-#block-views-calendar-calendar_block table th {
-    color: #333333;
-    border:none;
-    margin: 0px;
-    padding: 3px 2px 2px;
-    text-align:center;
-    background-color: #FFFFFF;
-    height: 13px;
-}
-#block-views-calendar-calendar_block table td {
-    border: 1px solid #FFF;
-}
-#block-views-calendar-calendar_block table.nav {
-    background-color: #FFF;
-    border:none;
-    padding: 0px 0px 0px 0px;
-}
-#block-views-calendar-calendar_block table td .mini-day-off, #block-views-calendar-calendar_block table td .mini-day-on {
-    background-color: #F7F7F7;
-    padding: 8px 2px 8px 2px;
-}
-.calendar-calendar td.sat, .calendar-calendar td.sun {
-    background-color: inherit;
-    color: inherit;
-}
-.captionHeader {
-    color: #333333;
-    font-size: 13px;
-    font-weight: normal;
-    text-align:left;
-    border-top:1px solid #FFFFFF;
-    border-bottom:1px solid #FFFFFF;
-    background-color: #ECECEC;
-    padding: 4px 5px 4px 5px;
-}
-#block-views-calendar-calendar_block table td:hover .month {
-    background-color: #F7F7F7;
-}
-#block-views-calendar-calendar_block table td.today {
-    background-color: inherit;
-}
-#block-views-calendar-calendar_block .calendar-calendar td {
-    text-align: center;
-}
-#block-views-calendar-calendar_block .calendar-calendar td, #block-views-calendar-calendar_block .calendar-calendar td a {
-    background-color: transparent;
-    color: #333;
-}
-#block-views-calendar-calendar_block table td.today .month {
-    color: #333333;
-    background-color: #eff2f4;
-}
-.ec3_eventday a {
-    color:#333333;
-}
-#block-views-calendar-calendar_block table td .mini-day-on {
-    background-color: #EFEFEF;
-}
 .ec3_ec span {
     display:none
 }
@@ -699,8 +602,12 @@ caption {
     color: #051215;
 }
 h4.title {
+    font: 36px Arial, Helvetica, Verdana, sans-serif;
+    font-weight:bold !important;
     margin: 0;
-    font-size: 1.4em;
+    padding:0 0 10px;
+    text-transform:none;
+    text-decoration:none;
 }
 #header .block-menu_block li {
     width: 237px;
@@ -2058,21 +1965,7 @@ body.simplemenu-enabled .wrapper {
     margin:0 0 10px 0;
 }
 /* SCHOOL SECTION */
-.section-school h4.title {
-    font-family:Georgia,"Times New Roman",Times,serif;
-    font-size:24px;
-    font-size-adjust:none;
-    font-stretch:normal;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:bold;
-    line-height:normal;
-    margin:0;
-    padding:0;
-    text-decoration:none;
-}
 .page-school-programs a.titleLink2 {
-    font-family:Georgia,"Times New Roman",Times,serif;
     font-size:24px;
 }
 /* people section */
@@ -2631,4 +2524,6 @@ td.gsc-branding-text, td.gsc-branding-img {
 
 /* from Minimalist */
 
-#block-block-21 h2, #block-block-21 div {display:none;}
+#block-views-calendar-calendar_block, #block-block-23 {
+	display:none;
+}
