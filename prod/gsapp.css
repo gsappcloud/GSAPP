@@ -2526,8 +2526,31 @@ td.gsc-branding-text, td.gsc-branding-img {
 }
 
 /* PUBLICATIONS */
-.publication-title {
+#header .menu-name-primary-links .menu .first{
+	display:none !important;
+}
+
+.view-Publications {
+	margin-top:30px;
+}
+
+.publication-title, body .publication-title:hover{
+	color:#222 !important;
 	text-decoration:none;
+}
+
+.publication-listing-image {
+	float:left;
+	margin-right:25px;
+}
+
+.publication-description {
+	float:left;
+	width:480px;
+}
+
+.view-Publications article.node {
+	margin-bottom:70px;
 }
 
 .publication-year{

@@ -14,8 +14,10 @@ $(document) .ready(function () {
     var videosnippet = '<iframe width="217" height="180" src="http://www.youtube.com/embed/zGOcZO5uOS4" frameborder="0" allowfullscreen></iframe>';
 	videosnippet = '<div id="videosnippettext">The Torre Cube 1 by Carme Pinos</div><div id="videosnippet">' + videosnippet + '</div>'; */
 
+	/* Publications */
+	var publicationsMenuHTML = '<div id="publications-series-submenu" class="block"><h2>Series</h2><ul class="menu"><li class="leaf first"><a href="/publications/abstract" title="Abstract">Abstract</a></li><li class="leaf"><a href="/publications/futureanterior" title="Future Anterior">Future Anterior</a></li><li class="leaf"><a href="/publications/sourcebooks" title="GSAPP Sourcebooks">GSAPP Sourcebooks</a></li><li class="leaf"><a href="/publications/materials" title="Materials">Materials</a></li><li class="leaf"><a href="/publications/studiox" title="Studio-X">Studio-X</a></li><li class="leaf"><a href="/publications/urbanmagazine" title="URBAN Magazine">URBAN Magazine</a></li><li class="leaf last"><a href="/publications/volume" title="Volume">Volume</a></li></ul></div>';
 	
-	
+	//$('body.section-publications #one_col_lt').append(publicationsMenuHTML);
 	
 
     

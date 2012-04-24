@@ -71,14 +71,14 @@ h4 {
     text-decoration:underline;
 }
 h5 {
-    font: 18px Georgia, "Times New Roman", Times, serif;
+    font: 18px Arial, Helvetica, sans-serif;
     font-weight:bold;
-    margin: 0px;
+    margin: 10px 0;
     padding:0px 0px 0px 0px;
     font-style:normal;
 }
 h6 {
-    font: 24px Georgia, "Times New Roman", Times, serif;
+    font: 24px Arial, Helvetica, sans-serif;
     font-weight:bold;
     margin: 0px;
     padding:0px 0px 10px 0px;

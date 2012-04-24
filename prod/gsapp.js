@@ -4,6 +4,10 @@ $(document) .ready(function () {
       $(".not-front #one_col_lt div.block-menu_block:first").addClass("first");
     }
     
+    
+var htmlForEvents = '<br><div class="views-row-2 views-row-even views-row-last"><div class="views-field-field-assign-date-value"><span class="field-content">04.26.12</span></div><div class="views-field-title"><span class="field-content"><a href="http://events.gsapp.org/event/book-launch-for-post-ductility-metals-in-architecture-and-engineering-1" target="_blank">Book Launch for Post-Ductility: Metals in Architecture and Engineering</a></span></div><div class="views-field-field-assign-time-value"><span class="field-content">7:00PM</span></div><div class="views-field-field-location-value"><span class="field-content"><p>Van Alen Institute, New York</p></span></div><div class="views-field-field-image-fid"><span class="field-content"><img src="http://events.gsapp.org/sites/default/files/event/240/poster-book-launch-for-post-ductility-metals-in-architecture-and-engineering-1292.jpg" alt="event" title="event"  width="217" height="273" /></span></div></div>';
+
+$('.front #block-block-21 .view-content').append(htmlForEvents);
 
     /* sundial item edit form */    
     if ($(".node-type-aggregation-item #content").length) {
