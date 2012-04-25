@@ -2536,7 +2536,7 @@ td.gsc-branding-text, td.gsc-branding-img {
 
 .publication-title, body .publication-title:hover{
 	color:#222 !important;
-	text-decoration:none;
+	text-decoration:none !important;
 }
 
 .publication-listing-image {
