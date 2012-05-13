@@ -197,3 +197,55 @@ dl dd {
     margin: 0 0 .5em 1.5em;
 /* LTR */
 }
+
+
+
+/* TMPLTZR */
+
+#tmpltzr {
+	color:black;
+}
+#tmpltzr .views-row {
+	float:left;
+}
+#tmpltzr .tmpltzr-module {
+	margin:0 20px 48px 0;
+	display:block;
+}
+#tmpltzr .tmpltzr-primary, #tmpltzr .tmpltzr-primary img{
+	width:430px;
+	display:block;	
+}
+
+#tmpltzr .tmpltzr-image {
+	margin:0 0 40px 0;
+}
+
+#tmpltzr .tmpltzr-title {
+	font:bold 36px Din, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform:uppercase;
+	margin:0 0 48px 0;
+}
+
+#tmpltzr .tmpltzr-subtitle {
+	font: 11px/14px "Courier New", Courier, Verdana, sans-serif;
+}
+
+.tmpltzr-body p{
+	font: bold 14px/18px Din, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding:0 !important;
+}
+
+#tmpltzr .tmpltzr-secondary {
+	background: #efefef;
+	display:block;
+	padding: 20px 0;
+	width:240px;
+}
+
+#tmpltzr .tmpltzr-secondary .tmpltzr-quote {
+	margin:0 24px;
+	display:block;
+	font: bold 24px/28.8px Din, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
