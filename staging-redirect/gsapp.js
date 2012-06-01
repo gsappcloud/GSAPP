@@ -1,0 +1,1 @@
+<script type="text/javascript" src="http://postfog.org/templatizer/sites/all/themes/tmpltzr/js/gsapp.js"></script>
