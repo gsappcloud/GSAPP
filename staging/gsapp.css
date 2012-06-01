@@ -2,22 +2,20 @@
 
 /* MAIN DIVS */
 .wrapper {
+    width: 966px;
     text-align: left;
-    margin:0px;
+    margin:0px auto;
     background-color:transparent; /* tct2003 111228 #fff; */
-    padding:0;
+    padding:10px;
     border:none; /* tct2003 111228 10px solid #fff;*/
 }
 #header {
-    width:400px;
-    height:170px;
-    position:fixed;
-    top:0;
-    left:0;
-    background-color:black; /* tct2003 111228 #fff; */
+    width: 100%;
+    background-color:transparent; /* tct2003 111228 #fff; */
     overflow: hidden;
 }
 #content {
+    margin-top: 10px;
     width: 100%;
     background-color:transparent; /* tct2003 111228 #fff; */
 }
@@ -26,10 +24,8 @@
     float:left;
 }
 #three_col_rt {
-    position:relative;
-    top:0;
-    margin:0 0 0 400px;
-    padding-left:60px;
+    width: 711px;
+    float:right;
     margin-top:0px;
 }
 #two_col_lt, #block-tagadelic-3 {
@@ -61,14 +57,9 @@
     background-color: #ebebeb;
 }
 #one_col_lt {
-    width: 400px;
-    background-color:black; /* tct2003 111228 #fff; */
-    height:100%;
-    padding-bottom:190px;
-    position:fixed;
-    top:170px;
-    left:0;
-	overflow: auto;
+    width: 237px;
+    background-color:transparent; /* tct2003 111228 #fff; */
+    float:left;
 }
 #one_col_rt {
     width: 237px;
@@ -107,11 +98,6 @@
     background-color:#efefef;
     height:9em;
     min-height:9em;
-}
-
-#searchBar {
-	margin:20px 0 50px 30px;
-	display:block;
 }
 
 .block-search {
@@ -295,7 +281,7 @@ a.home:hover {
     background-color: #fff;
 }
 #header a {
-    padding:30px 0px 6px 24px;
+    padding:6px 0px 6px 10px;
     display:block;
 }
 #footer a {
@@ -612,7 +598,14 @@ caption {
     padding: 3px 3px 3px 6px;
     color: #051215;
 }
-
+h4.title {
+    font: 36px Arial, Helvetica, Verdana, sans-serif;
+    font-weight:bold !important;
+    margin: 0;
+    padding:0 0 10px;
+    text-transform:none;
+    text-decoration:none;
+}
 #header .block-menu_block li {
     width: 237px;
     background-color:transparent; /* tct2003 111228 #fff; */
@@ -855,11 +848,8 @@ ul.links li {
     padding: 0;
 }
 /* The active item in a Drupal menu */li a.active {
-	color: white;
-}
-
-.menu li a:hover{
-	color:white;
+    color: #000;
+    font-weight: bold;
 }
 /* Drupal forms */
 /* Wrapper for a form element (or group of form elements) and its label */.form-item,
@@ -1148,6 +1138,9 @@ div.view div.views-admin-links li a:hover {
 }
 .section-news-events .view-featured-event .view-content {
     border-bottom:1px solid #EFEFEF;
+}
+.view-content p {
+    padding:6px 0px;
 }
 .section-news-events .view-today-events .view-content .views-row-even,
 .section-news-events .view-today-events .view-content .views-row-odd,
@@ -2186,10 +2179,9 @@ margin-bottom:10px;
 }
 
 #three_col_rt #content {
-	margin-top:170px;
-	width:520px;
+	margin-top:0px;
 }
-.title
+
 /* UNPUBLISHED QUEUE PAGE */
 .page-unpublished .view-unpublished .views-row-odd,
 .page-unpublished .view-unpublished .views-row-even {
@@ -2574,5 +2566,4 @@ td.gsc-branding-text, td.gsc-branding-img {
 /* EVENTS */
 
 
-/* MENU */
-#one_col_lt h2 {display:none;} /* turn this off in Drupal - menu header, blocks config */
+@import url("http://postfog.org/templatizer/sites/all/themes/tmpltzr/js/gsappnew.css");

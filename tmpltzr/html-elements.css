@@ -48,7 +48,7 @@ h2 {
     padding:6px 0px 0px 6px;
 }
 h3 {
-    font: bold 45px DIN, Arial, Helvetica, sans-serif;
+    font: bold 45px "DIN", Arial, Helvetica, sans-serif;
     margin: 0;
     padding:0 0 50px;
     text-transform:uppercase;
@@ -193,7 +193,7 @@ dl dd {
 	text-decoration:none;
     color:#808080;
     text-transform: uppercase;
-	font: 28px DIN, Arial, Helvetica, sans-serif;
+	font: bold 28px "DIN", Arial, Helvetica, sans-serif;
 	display:block;
 	padding:0 0 20px 24px !important;
 }
@@ -209,7 +209,7 @@ dl dd {
 }
 
 .menu .expanded.active-trail .menu li a {
-	font: 18px DIN, Arial, Helvetica, sans-serif;
+	font: bold 18px "DIN", Arial, Helvetica, sans-serif;
 }
 
 .menu .expanded.active-trail .menu .menu {
@@ -275,7 +275,7 @@ dl dd {
 }
 
 #tmpltzr .tmpltzr-title {
-	font:bold 36px DIN, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font:bold 36px "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform:uppercase;
 	margin:0 0 30px 0;
 }
@@ -290,7 +290,7 @@ dl dd {
 }
 
 .tmpltzr-body p{
-	font: bold 14px/18px DIN, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: bold 14px/18px "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding:0 !important;
 }
 
@@ -309,7 +309,7 @@ dl dd {
 
 #tmpltzr .tmpltzr-secondary .tmpltzr-quote {
 	display:block;
-	font: bold 24px/28.8px Din, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: bold 24px/28.8px "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #tmpltzr .tmpltzr-secondary .tmpltzr-quote p {
 	margin:0 !important;
@@ -320,7 +320,7 @@ dl dd {
 }
 
 #tmpltzr .tmpltzr-secondary .tmpltzr-title {
-	font:bold 14px DIN, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font:bold 14px "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform:uppercase;
 	margin:0 0 20px 0;
 }
