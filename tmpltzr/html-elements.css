@@ -1,3 +1,5 @@
+/* @override http://www.columbia.edu/cu/arch/tmpltzr/html-elements.css */
+
 body {
     margin: 0;
     padding: 0;
@@ -195,15 +197,15 @@ dl dd {
     text-transform: uppercase;
 	font: bold 28px "DIN", Arial, Helvetica, sans-serif;
 	display:block;
-	padding:0 0 20px 24px !important;
+	padding:0 0 15px 24px !important;
 }
 
 
 .menu .expanded.active-trail .menu {
-	border-left:2px solid white;
+	border-left:none;
 	display:block;
 	position:relative;
-	left:45px;
+	left:28px;
 	width:300px;
 	word-wrap: break-word
 }
@@ -214,6 +216,12 @@ dl dd {
 
 .menu .expanded.active-trail .menu .menu {
 	border:none;
+	
+}
+
+.menu .expanded.active-trail .menu .menu .menu .menu{
+	width:240px;
+
 }
 
 .menu {
