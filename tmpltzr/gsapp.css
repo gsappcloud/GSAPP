@@ -578,7 +578,7 @@ caption {
     padding:5px;
 }
 #mytable th {
-    font: 10px "arial", helvetica, sans-serif;
+    font: bold 10px "arial", helvetica, sans-serif;
     color: #000000;
     border-top: 2px solid #000;
     border-right: 2px solid #000;
@@ -599,7 +599,7 @@ caption {
     text-align: center;
 }
 #mytable2 th {
-    font: 10px arial, helvetica, sans-serif;
+    font:10px arial, helvetica, sans-serif;
     color: #051215;
     border-right: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
