@@ -96,6 +96,7 @@ td.region, td.module, td.container, td.category {
     color: #455067;
     font-weight: bold;
 }
+
 tr:first-child td.region, tr:first-child td.module, tr:first-child td.container, tr:first-child td.category {
     border-top-width: 0;
 }
