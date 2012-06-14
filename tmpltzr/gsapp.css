@@ -518,9 +518,8 @@ p.gobutton {
 }
 /* COURSE TABLE */
 #mytable {
-    font: 9px Arial, Helvetica, sans-serif;
+    font: 10px Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1px;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -598,6 +597,7 @@ caption {
     color: #000;
     text-transform: none;
     text-align: center;
+  /*  word-break: break-all !important; */
 }
 #mytable2 th {
     font:10px arial, helvetica, sans-serif;
