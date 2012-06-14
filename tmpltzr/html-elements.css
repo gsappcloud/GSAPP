@@ -274,7 +274,7 @@ dl dd {
 	margin-bottom:10px;
 }
 
-.tmpltzr-body p{
+.tmpltzr-body {
 	font: bold 14px/18px "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding:0 !important;
 }
