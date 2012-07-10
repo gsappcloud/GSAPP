@@ -334,4 +334,7 @@ dl dd {
 	margin-bottom: 0 !important;
 }
 
+#tmpltzr .tmpltzr-photoset .image-hidden {
+	display:none;
+}
 

@@ -1,0 +1,41 @@
+; $Id: garland.info,v 1.5 2007/07/01 23:27:32 goba Exp $
+name = GSAPP
+description = Based on Zen theme
+version = 1.0
+core = 6.x
+base theme = zen
+stylesheets[all][] = zen.css
+stylesheets[all][] = layout.css
+stylesheets[all][] = html-elements.css
+stylesheets[all][] = layout.css
+stylesheets[all][] = tabs.css
+;stylesheets[all][] = gsapp.css
+
+stylesheets[print][] = print.css
+
+;scripts[] = gsapp.js
+;scripts[] = ccwidget.js
+
+regions[left_outer]         = left outer
+regions[left_inner]         = left inner
+regions[right_outer]        = right outer
+regions[right_inner]        = right inner
+regions[navigation_main]    = main navigation
+regions[header]         	= header
+regions[footer]         	= footer
+regions[content_header]     = content header
+regions[content_footer]     = content footer
+
+; Set the default settings to be used in theme-settings.php
+settings[zen_block_editing]        = 1
+settings[zen_breadcrumb]           = yes
+settings[zen_breadcrumb_separator] = ' &gt; '
+settings[zen_breadcrumb_home]      = 1
+settings[zen_breadcrumb_trailing]  = 1
+settings[zen_breadcrumb_title]     = 0
+settings[zen_wireframes]           = 0
+
+; Information added by drupal.org packaging script on 2008-04-09
+version = "6.0"
+project = "columbia"
+datestamp = "1207776008"
