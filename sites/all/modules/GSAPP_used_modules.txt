@@ -1,0 +1,48 @@
+Advanced help 6.x-1.1
+Aggregation 6.x-1.3
+Block Cache Alter 6.x-1.4
+Calendar 6.x-2.x-dev (2008-Sep-10)
+CCK Redirection 6.x-1.1
+Computed Field 6.x-1.0-beta2
+Content Construction Kit (CCK) 6.x-2.2
+Content Profile 6.x-1.0
+copyright  INTERNALLY BUILT
+custom_advanced_search  INTERNALLY BUILT
+Date 6.x-2.0-rc4
+Devel 6.x-1.18
+FCKeditor - WYSIWYG HTML editor 6.x-1.3-rc3
+FileField 6.x-3.0-beta1
+Filter by node type 6.x-1.2
+Global Redirect 6.x-1.2
+Google Analytics 6.x-2.0
+Guestbook 6.x-1.1
+ImageAPI 6.x-1.0
+ImageCache 6.x-2.0-beta1
+ImageField 6.x-3.0-beta2
+IMCE 6.x-1.3
+Javascript Aggregator 6.x-1.3
+Lightbox2 6.x-1.9
+Memcache API and Integration 6.x-1.9
+Menu block 6.x-2.2
+my_site_lite  INTERNALLY BUILT
+Node export 6.x-2.2
+Nodequeue 6.x-2.5
+Path redirect 6.x-1.x-dev (2008-May-31)
+Pathauto 6.x-1.1
+Pathologic 6.x-2.0-beta19
+Person node  INTERNALLY BUILT
+ProfilePlus 6.x-1.1
+Revision Moderation 6.x-1.0-alpha1
+Service links 6.x-1.0
+session_set  INTERNALLY BUILT
+SimpleMenu 6.x-1.2
+Tagadelic 6.x-1.2
+Taxonomy Delegate 6.x-1.x-dev (2009-Feb-10)
+Taxonomy Redirect 6.x-1.3
+Token 6.x-1.x-dev (2009-May-14)
+Transliteration 6.x-2.1
+Views 6.x-2.2
+Webform 6.x-2.3
+wind  INTERNALLY BUILT
+Workflow 6.x-1.1
+Zen  CUSTOMIZED
