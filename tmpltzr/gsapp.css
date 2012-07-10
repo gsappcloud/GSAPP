@@ -1,4 +1,7 @@
-/* @override http://www.columbia.edu/cu/arch/staging/gsapp.css */
+/* @override 
+	http://www.columbia.edu/cu/arch/staging/gsapp.css
+	http://www.columbia.edu/cu/arch/tmpltzr/gsapp.css
+*/
 
 /* MAIN DIVS */
 .wrapper {
@@ -515,9 +518,8 @@ p.gobutton {
 }
 /* COURSE TABLE */
 #mytable {
-    font: 9px Arial, Helvetica, sans-serif;
+    font: 10px Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1px;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -541,13 +543,12 @@ p.gobutton {
     border-top: 1px solid #ebebeb;
 }
 caption {
-    font: 10px arial, helvetica, sans-serif;
+    font: 11px "courier new", monospace;
     color: #000;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
     text-align: left;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    text-transform: none;
 }
 #nav {
     float: left;
@@ -575,26 +576,31 @@ caption {
     padding:5px;
 }
 #mytable th {
-    font: 10px arial, helvetica, sans-serif;
-    color: #051215;
-    border-right: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
-    border-left: 1px solid #ebebeb;
-    letter-spacing: 2px;
+    font: bold 11px "arial", helvetica, sans-serif;
+    color: #000000;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
     text-transform: none;
     text-align: left;
-    padding: 3px 3px 3px 6px;
+    padding: 6px 3px 6px 6px;
     background: #f3f3f3;
 }
 #mytable td {
-    border-right: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
+	font: 10px "arial", helvetica, snas-serif;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
     background: #fff;
-    padding: 3px 3px 3px 6px;
-    color: #051215;
+    padding: 6px 3px 6px 3px;
+    color: #000;
+    text-transform: none;
+    text-align: center;
+  /*  word-break: break-all !important; */
 }
 #mytable2 th {
-    font: 10px arial, helvetica, sans-serif;
+    font:10px arial, helvetica, sans-serif;
     color: #051215;
     border-right: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
@@ -2568,6 +2574,7 @@ td.gsc-branding-text, td.gsc-branding-img {
 }
 .publications-index .views-row, .publications-index .view-header {float:left; margin-right:10px; margin-bottom: 10px; height:100px; display:block; vertical-align:bottom; }
 .publications-index .view-header { font: bold 18px Verdana, Helvetica, Arial, sans-serif; margin-right:25px; text-align:right; }
+
 
 
 
